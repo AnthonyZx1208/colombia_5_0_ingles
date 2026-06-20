@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic website about Colombia 5.0, Figma, video game UI design, AI, and technology ethics.">
+  <title>Colombia 5.0 | Technology, UI and Ethics</title>
+
+  <!-- Bootstrap 5 and custom stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main menu -->
+  <header class="topbar sticky-top">
+    <nav class="navbar navbar-expand-lg" aria-label="Main menu">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <span class="logo-box">C5</span>
+          <span>Colombia 5.0</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Open menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#purpose">Purpose</a></li>
+            <li class="nav-item"><a class="nav-link" href="#talks">Talks</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#glossary">Glossary</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ethics">Ethics</a></li>
+            <li class="nav-item"><a class="nav-link" href="#references">References</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <p class="eyebrow">Informational website</p>
+            <h1>Colombia 5.0 as a space to think, design, and build responsible technology</h1>
+            <p class="hero-text">
+              This page presents an academic summary about video game interfaces, design systems,
+              artificial intelligence, and professional responsibility in software development.
+            </p>
+            <div class="hero-actions">
+              <a href="#talks" class="btn btn-accent btn-lg">View Content</a>
+              <a href="#ethics" class="btn btn-outline-dark btn-lg">Read Reflection</a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="summary-board">
+              <div>
+                <strong>HTML5</strong>
+                <span>Semantic structure</span>
+              </div>
+              <div>
+                <strong>CSS3</strong>
+                <span>Responsive design</span>
+              </div>
+              <div>
+                <strong>JS</strong>
+                <span>Basic interactivity</span>
+              </div>
+              <div>
+                <strong>Bootstrap</strong>
+                <span>Grid and components</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Purpose -->
+    <section id="purpose" class="section-block">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <p class="eyebrow">Purpose</p>
+            <h2>A project for organizing technical ideas with academic criteria</h2>
+          </div>
+          <div class="col-lg-8">
+            <div class="content-panel">
+              <p>
+                The objective of this website is to explain, in a clear way, how the topics discussed at
+                Colombia 5.0 relate to the education of a systems engineering student. The page does not only
+                present information; it also organizes concepts, compares ideas, and proposes a reflection on
+                the impact of technology on companies and society.
+              </p>
+              <p>
+                The main focus is video game UI design with Figma. From that topic, the site analyzes reusable
+                components, variants, Auto Layout, design systems, and the preparation of interfaces for future
+                tools based on artificial intelligence.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Talks -->
+    <section id="talks" class="section-block muted-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Conferences</p>
+          <h2>Two perspectives for understanding current technology</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <article class="talk-card">
+              <span class="tag">Talk 01</span>
+              <h3>Video game UI with Figma</h3>
+              <p><strong>Speaker:</strong> Presenter from the Colombia 5.0 event.</p>
+              <p><strong>Topic:</strong> Building reusable, scalable, and easy-to-edit interfaces.</p>
+              <p>
+                The talk shows that a video game interface should not be improvised screen by screen.
+                When a project uses components, frames, variants, and Auto Layout, the design can grow
+                without losing consistency. This matters because video games usually need menus, buttons,
+                indicators, health bars, and panels that change according to the user's context.
+              </p>
+              <p>
+                The 9-slice technique is also valuable because it makes it possible to resize containers
+                without deforming their corners. Together, these practices help teams work faster and with
+                fewer visual errors.
+              </p>
+              <button class="btn btn-sm btn-outline-primary reveal-btn" data-target="detailOne">Show key idea</button>
+              <p id="detailOne" class="hidden-note">Key idea: a good design system prepares a project to scale and to integrate better with AI tools.</p>
+            </article>
+          </div>
+
+          <div class="col-lg-6">
+            <article class="talk-card">
+              <span class="tag tag-green">Talk 02</span>
+              <h3>Ethics, AI, and digital companies</h3>
+              <p><strong>Speaker:</strong> Complementary academic analysis.</p>
+              <p><strong>Topic:</strong> Responsibility in the use of data, automation, and artificial intelligence.</p>
+              <p>
+                Business technology can improve processes, reduce time, and support decisions, but it can
+                also create risks when used without control. For that reason, artificial intelligence should
+                be applied with transparency, human supervision, and respect for data privacy.
+              </p>
+              <p>
+                For a future systems engineer, programming is not only writing code. It also means thinking
+                about security, accessibility, fairness, social impact, and the consequences for the people
+                who will use the system.
+              </p>
+              <button class="btn btn-sm btn-outline-success reveal-btn" data-target="detailTwo">Show key idea</button>
+              <p id="detailTwo" class="hidden-note">Key idea: a technological solution should be useful, but also responsible, secure, and understandable.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Media gallery -->
+    <section id="gallery" class="section-block">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Media Gallery</p>
+          <h2>Visual record of the workshop and the Colombia 5.0 experience</h2>
+          <p>
+            This section presents five images and two local videos from the event. The videos are configured
+            to play without audio by default.
+          </p>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6 col-xl-4">
+            <figure class="media-card">
+              <img src="media/figma-workshop-wide.jpeg" alt="Workshop screen showing the Figma environment during Colombia 5.0.">
+              <figcaption><span>Image 01</span><strong>Figma workshop on the main screen</strong></figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <figure class="media-card">
+              <img src="media/figma-component-demo.png" alt="Component demonstration in Figma during the workshop.">
+              <figcaption><span>Image 02</span><strong>Component construction</strong></figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <figure class="media-card">
+              <img src="media/figma-container-demo.png" alt="Interface container example in Figma.">
+              <figcaption><span>Image 03</span><strong>Interface containers</strong></figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <figure class="media-card">
+              <img src="media/game-interface-demo.png" alt="Video game interface example presented in Figma.">
+              <figcaption><span>Image 04</span><strong>Interface applied to games</strong></figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <figure class="media-card">
+              <img src="media/figma-design-system.jpeg" alt="Design system with foundations, components, and states in Figma.">
+              <figcaption><span>Image 05</span><strong>Design system in Figma</strong></figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <figure class="media-card video-card">
+              <video controls muted playsinline preload="metadata" aria-label="First workshop video without audio">
+                <source src="https://res.cloudinary.com/dodlhti7d/video/upload/v1781919929/video_anthony_2_ktzgxx.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <figcaption><span>Video 01</span><strong>Local workshop video</strong></figcaption>
+            </figure>
+          </div>
+          <div class="col-12">
+            <figure class="media-card video-card video-wide">
+              <video controls muted playsinline preload="metadata" aria-label="Second workshop video without audio">
+                <source src="https://res.cloudinary.com/dodlhti7d/video/upload/v1781919871/video_anthony_1_wk4zyk.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <figcaption><span>Video 02</span><strong>Full event record</strong></figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Additional information -->
+    <section class="section-block dark-section">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5">
+            <p class="eyebrow">Additional Information</p>
+            <h2>From visual design to professional thinking</h2>
+          </div>
+          <div class="col-lg-7">
+            <div id="ideasCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="idea-slide">
+                    <h3>Organization</h3>
+                    <p>A well-organized project supports teamwork and reduces errors during development.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="idea-slide">
+                    <h3>Reuse</h3>
+                    <p>Components make it possible to repeat patterns without rebuilding every element from scratch.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="idea-slide">
+                    <h3>Responsibility</h3>
+                    <p>Technology should solve problems without ignoring privacy, security, and social well-being.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#ideasCarousel" data-bs-slide="prev" aria-label="Previous">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#ideasCarousel" data-bs-slide="next" aria-label="Next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Glossary -->
+    <section id="glossary" class="section-block">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Technical Glossary</p>
+          <h2>Thirty important terms</h2>
+        </div>
+        <div class="table-responsive glossary-wrap">
+          <table class="table align-middle table-hover">
+            <thead>
+              <tr>
+                <th>Term</th>
+                <th>Category</th>
+                <th>Explanation</th>
+              </tr>
+            </thead>
+            <tbody id="glossaryTable"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ethics -->
+    <section id="ethics" class="section-block muted-section">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <p class="eyebrow">Ethical Conclusion</p>
+            <h2>Business technology needs human judgment</h2>
+          </div>
+          <div class="col-lg-7">
+            <div class="content-panel">
+              <p>
+                Ethics is implemented when companies design technology while considering the consequences of
+                their decisions. In projects with artificial intelligence, this means reviewing the data used,
+                explaining results, avoiding discrimination, and maintaining human supervision.
+              </p>
+              <p>
+                Automation should not be seen as a way to remove responsibility. Even when a system performs
+                tasks automatically, developers and organizations remain responsible for its behavior, security,
+                and social impact.
+              </p>
+              <p>
+                As a second-semester student, I believe that learning to program also requires learning to make
+                responsible decisions. Quality software should work well, but it should also protect privacy,
+                accessibility, and user trust.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- References -->
+    <section id="references" class="section-block references-section">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <p class="eyebrow">References</p>
+            <h2>Resources used</h2>
+          </div>
+          <div class="col-lg-8">
+            <ul class="references-list">
+              <li><a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap 5</a></li>
+              <li><a href="https://fonts.google.com/specimen/Manrope" target="_blank" rel="noopener">Manrope Typeface from Google Fonts</a></li>
+              <li><a href="https://www.figma.com/" target="_blank" rel="noopener">Figma Platform</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <p class="mb-0">Contact: student.project@example.com</p>
+      <p class="mb-0">&copy; 2026 Colombia 5.0. Academic project.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
